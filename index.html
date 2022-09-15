@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/lista-icone.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Criando listas | Javascript</title>
+</head>
+
+<body>
+
+    <main class="principal">
+
+        <h1 class="principal__titulo">Criando listas dinâmicas com Javascript</h1>
+
+        <form class="principal__entradas" id="novoItem">
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+
+
+            <label for="quantidade">Quantidade</label>
+            <input type="number" name="quantidade" id="quantidade">
+
+
+            <input type="submit" value="Adicionar" class="principal__entradas--submit" id="cadastrar">
+        </form>
+
+
+        <section class="principal__container">
+            <ul class="principal__lista">
+
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
